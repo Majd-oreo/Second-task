@@ -1,0 +1,13 @@
+form{
+    width:350px;
+    margin-right: auto;
+    padding: 20px;
+}
+textarea {
+    width: 90%;
+    height: 80px;
+    border: 1px solid #ccc;
+ 
+}
+
+    
