@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise #3 registration form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form class="personal" style="width: 400px; margin: 20px auto; padding: 15px;" >
+            <fieldset style="border: 1px solid #999; padding: 15px; margin-bottom: 15px; background-color: #ffffe0;">
+                <legend style=" padding: 0 5px;">Personal details</legend>
+                <label for="First Name">First Name:</label>
+                <input type="text" id="First" name="First">
+                <br><br>
+                <label for="Second Name">Second Name</label>
+                <input type="text" id="Second" name="Second">
+                <br><br>
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label for="gender">Gender</label>
+                <input type="radio" name="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="female" id="female">
+                <label for="female">Female</label>
+                
+            </fieldset>
+            <fieldset style="border: 1px solid #999; padding: 15px; margin: 0 auto; background-color: #ffffe0;">
+                <legend style=" padding: 0 ;">City</legend>
+                <label for="city" for="city" style="display: inline-block; width: 120px; text-align: left;">City</label>
+                <select id="city" name="city" style="width: 200px; padding: 5px; border: 1px solid #ccc; border-radius: 3px; ">
+                    <option value="amman">Amman</option>
+                    <option value="irbid">Irbid</option>
+                </select>
+            </fieldset>
+            <button type="submit"type="submit" style="margin-top: 10px;margin-left: 40%; padding: 10px 20px;">Subscribe</button>
+        </form>
+    </body>
+</html>
